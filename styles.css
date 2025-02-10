@@ -18,7 +18,11 @@ main {
     padding: 20px;
 }
 
-h1, h2 {
+h1 {
+    color: #777;
+}
+
+h2 {
     color: #333333;
 }
 
