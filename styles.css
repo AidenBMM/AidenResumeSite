@@ -19,7 +19,7 @@ main {
 }
 
 h1, h2 {
-    color: #AAA;
+    color: #333333;
 }
 
 p {
@@ -42,7 +42,7 @@ footer {
 }
 .tab button {
     background-color: #100F4D; 
-    color: #00001c; 
+    color: #CCCCFF; 
     float: left;
     border: none;
     outline: none;
