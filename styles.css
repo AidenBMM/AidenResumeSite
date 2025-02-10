@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background-color: #1d1db3;
-    color: #444;
+    background-color: #192340;
+    color: #777;
     padding: 20px;
     text-align: center;
 }
@@ -27,8 +27,8 @@ p {
 }
 
 footer {
-    background-color: #302010;
-    color: #A0A0A0;
+    background-color: #192340;
+    color: #777;
     text-align: center;
     padding: 5px;
     position: sticky;
@@ -41,8 +41,8 @@ footer {
     border-radius: 10px;
 }
 .tab button {
-    background-color: #4d220f; /* Dull orange */
-    color: #C0C0C0; /* White text */
+    background-color: #100F4D; 
+    color: #00001c; 
     float: left;
     border: none;
     outline: none;
@@ -53,11 +53,11 @@ footer {
 }
 
 .tab button:hover {
-    background-color: #af4a20; /* Darker shade of orange on hover */
+    background-color: #2C20B1; 
 }
 
 .tab button.active {
-    background-color: #ab481f; /* Darker shade of orange for active tab */
+    background-color: #205FAC; 
 }
 
 img {
