@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aiden's Resume Site</title>
-    <link rel="shortcut icon" href="./Designer.png" type="image/x-icon">
-	    <link rel="stylesheet" href="styles.css">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- <button onclick="myFunction()">learn about me</button>
+    <header>
+        <h1>A Test Page by Marm</h1>
+    </header>
+    <main>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'intro')">Intro</button>
+        </div>
+        <div id="intro" class="tabcontent">
+		<h2>Hey there. I'm Aiden.</h2>
+		<p>If you're reading this, you're likely a human being. Not an AI resume-sorter. Thank you for your consideration.</p>
+		<br></br>
+		<p>Seeing as how this little website is a bit less formal than a resume, I've taken it upon myself to detail my hobbies here.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025  Aiden. All rights reserved.</p>
+    </footer>
 
-    <script>
-        function myFunction() {
-			window.alert("You know too much.");
-			//setTimeout(function() { 
-			window.close();
-			//}, 750); // delay of .75 seconds
-			
-        }
-    </script> -->
-<header>Hey there. I'm Aiden.</header>
-<main>If you're reading this, you're likely a human being. Not an AI resume-sorter. Thank you for your consideration.</main>
-<br>
-<br>
-<main>Now, where was I?</main>
-</html> 
+    <script src="script.js"></script>
+</body>
+</html>
